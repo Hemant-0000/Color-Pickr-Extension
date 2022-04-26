@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script:wght@700&family=Great+Vibes&family=Roboto:ital,wght@0,400;1,300&family=Ubuntu:wght@400;500&display=swap');
+
+body{
+    background: #202020;
+    color: rgb(200, 188, 188);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper{
+    width: 300px;
+    text-align: center;
+}
+.heading{
+    font-weight: 400;
+}
+.changeColorBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(206, 206, 206);
+    border-radius: 3px;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(91, 91, 156), rgb(43, 43, 153));
+    cursor: pointer;
+}
+.changeColorBtn:hover{
+    background: linear-gradient(to right, rgb(77, 77, 207), rgb(35, 35, 104));
+}
